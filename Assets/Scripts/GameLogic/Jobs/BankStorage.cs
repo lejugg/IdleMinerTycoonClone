@@ -7,7 +7,7 @@ namespace IdleMinerTycoonClone.GameLogic.Jobs
 	/// The storage forwards its transactions to the bank.
 	/// </summary>
 	/// <seealso cref="IdleMinerTycoonClone.GameLogic.Jobs.Storage" />
-	public class BankStorage : Storage, ISingleton
+	public class BankStorage : Storage
 	{
 		#region storage overrides
 
