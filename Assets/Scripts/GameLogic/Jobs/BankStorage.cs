@@ -1,10 +1,8 @@
-﻿using UnityEngine;
-using System.Collections;
-
+﻿
 namespace IdleMinerTycoonClone.GameLogic.Jobs
 {
 	/// <summary>
-	/// The storage forwards its transactions to the bank.
+	/// A bankstorage forwards its transactions to the bank.
 	/// </summary>
 	/// <seealso cref="IdleMinerTycoonClone.GameLogic.Jobs.Storage" />
 	public class BankStorage : Storage

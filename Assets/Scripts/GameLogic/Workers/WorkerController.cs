@@ -3,7 +3,6 @@ using IdleMinerTycoonClone.GameLogic.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 namespace IdleMinerTycoonClone.GameLogic.Workers
 {
@@ -165,7 +164,7 @@ namespace IdleMinerTycoonClone.GameLogic.Workers
 		/// <returns></returns>
 		private IEnumerator PerformAllTasksOnce ()
 		{
-			Agent.GetComponentInChildren<UnityEngine.UI.Image> ().color = new Color (0.2f ,0.2f, 0.2f);
+			Agent.GetComponentInChildren<UnityEngine.UI.Image> ().color = new Color (0.8f ,0.8f, 0.8f);
 			var index = 0;
 
 			while (index < tasks.Count)
@@ -174,7 +173,7 @@ namespace IdleMinerTycoonClone.GameLogic.Workers
 				index++;
 			}
 
-			Agent.GetComponentInChildren<UnityEngine.UI.Image> ().color = new Color (0.6f, 0.6f, 0.2f);
+			Agent.GetComponentInChildren<UnityEngine.UI.Image> ().color = new Color (1f,1f,1f);
 			taskCoroutine = null;
 			//Debug.Log ("All Tasks done");
 		}

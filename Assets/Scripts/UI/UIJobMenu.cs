@@ -59,7 +59,7 @@ namespace IdleMinerTycoonClone.UI
 			{
 				Debug.Log ("Start Working");
 				job.StartWorking ();
-				managerButton.GetComponent<Image> ().color = new Color (0.1f, 0.5f, 0.1f);
+				managerButton.GetComponent<Image> ().color = new Color (0.7f, 0.7f, 0.7f);
 			}
 		}
 

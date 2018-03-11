@@ -11,7 +11,7 @@ namespace IdleMinerTycoonClone.GameLogic.Jobs
 	/// </summary>
 	/// <seealso cref="IdleMinerTycoonClone.General.AbstractSingletonMonoBehaviour" />
 	/// <seealso cref="IdleMinerTycoonClone.GameLogic.AbstractSingletonMonoBehaviour" />
-	public class Bank : AbstractSingletonMonoBehaviour, IStorage
+	public class Bank : Singleton<Bank>, IStorage
 	{
 		#region serialized fields
 
@@ -153,7 +153,7 @@ namespace IdleMinerTycoonClone.GameLogic.Jobs
 		{
 			if (accountDisplay != null)
 			{
-				accountDisplay.text = Balance.ToString ();
+				accountDisplay.text = Balance.ToString () + " $";
 			}
 
 		}

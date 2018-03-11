@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Withdraw Task
   m_EditorClassIdentifier: 
   duration: 1.5
-  amount: 100
+  amount: 50
